@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data files (large / not for version control by default)
+# Remove or edit these lines if you WANT the CSVs tracked in git,
+# e.g. if they are small enough and you have the right to redistribute them.
+loan_payments_versions/*.csv
+
+# Keep the folder itself tracked even though its contents are ignored
+!loan_payments_versions/.gitkeep
+
+# Logs
+*.log
